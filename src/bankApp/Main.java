@@ -8,6 +8,8 @@ public static void main(String[] args) {
     CreditAccount creditAccount1 = new CreditAccount("00001",100,customer1,9);
     SavingsAccount savingsAccount1 = new SavingsAccount("00002",300,customer1,4);
 
+    System.out.println(customer1);
+
     System.out.println("suma initiala : " + creditAccount1.getSuma() + " " + creditAccount1.getValuteType());
     creditAccount1.deposit(200);
     System.out.println("dupa depozit: " +creditAccount1.getSuma() + " " +creditAccount1.getValuteType());

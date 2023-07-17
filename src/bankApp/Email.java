@@ -9,8 +9,6 @@ public class Email {
 
     public Email(String firstName, String lastName, String bankDomain) {
         this.defaultPassword = randomPassword(this.defaultPasswordLength);
-        System.out.println("Your password is " + this.defaultPassword);
-
         this.email = firstName.toLowerCase() + "." + lastName.toLowerCase() + "@" + bankDomain;
     }
 
@@ -39,7 +37,7 @@ public class Email {
     @Override
     public String toString() {
         return "Email:{" +
-                "email='" + email + '\'' +
+                "'" + email + '\'' +
                 "default password='" + defaultPassword + '\'' +
                 '}';
     }
