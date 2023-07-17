@@ -1,4 +1,4 @@
-package emailapp;
+package bankApp;
 
 public class Email {
     private String defaultPassword;

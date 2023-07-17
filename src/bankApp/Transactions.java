@@ -1,4 +1,4 @@
-package emailapp;
+package bankApp;
 
 public interface Transactions {
     void deposit(double suma);

@@ -1,6 +1,4 @@
-package emailapp;
-
-import java.util.Scanner;
+package bankApp;
 
 public class Main {
 
